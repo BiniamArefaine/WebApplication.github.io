@@ -12,7 +12,7 @@ h1, h2{
     color: lightblue;
 }
 .proud {
-    color: rgb(89, 223, 111)
+    color: rgb(195, 206, 51)
 }
 a {
     text-decoration: none;
@@ -34,7 +34,7 @@ dd {
 }
 
 dt {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
 .reverse {
