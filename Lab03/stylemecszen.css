@@ -1,0 +1,116 @@
+
+body {
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    background-color: rgb(46, 54, 49);
+}
+div {
+    color: rgb(207, 167, 174)
+}
+
+.intro {
+    background-size: cover;
+    background: url("https://cdn.mos.cms.futurecdn.net/gZZrBVXJG5yiMxfuAgJqok-1200-80.jpg") center;
+    color: black;
+}
+
+.intro header{
+    height:220px;
+    background-size: cover;
+    color: rgb(162, 167, 226);
+    background-image: url("https://image.freepik.com/free-vector/mysterious-galaxy-background-with-colorful-planets_79603-576.jpg");
+    background-size: auto;
+}
+
+.main > div{
+    background: url("https://www.universetoday.com/wp-content/uploads/2018/04/nrao18cb5_artistimpression.jpg") center;
+    background-size: cover;
+    text-indent: 5px;
+    color: wheat;
+}
+#zen-requirements {
+    background: url("https://cdn.mos.cms.futurecdn.net/7hs5hmiYP5hjk5LRmDaAKP.jpg") center;
+    background-size: cover;
+    text-indent: 5px;
+    color: wheat;
+}
+header h1{
+    color:#169e35;
+    text-align:center;
+    font-size:70px;
+    padding-top:30px;
+    margin-bottom:10px;
+}
+header h2{
+    color:#856404;
+    text-align:center;
+    margin-top:0px;
+    
+}
+ 
+section>div,.main>div{
+    padding-left:30px;
+    display:inline-block;
+    width:60%;
+}
+.main a{
+    color: white;
+}
+
+.main{
+    background-size: cover;
+    background:url("https://2pegpn1kpaf13456hz3hza2s-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Rain-photo.png") center;
+    color: wheat;
+}
+aside{
+    position:absolute;
+    display:inline-block;
+    width:25%;
+    height:auto;
+    left:75%;
+    top:290px;
+    background-image:url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRVCyceg2xqUQ8zye4k2r1D8dUQFXm7sZMuqymAnCmoIASoYlxC");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+footer{
+    background:#002752;
+    height:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    padding-left:30px;
+    border-bottom: 1px solid #ccc;
+    font-family:italic;
+}
+
+aside li a {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    text-decoration: double;
+    color: rgb(214, 210, 202);
+    display: block;
+
+}
+
+aside h3 {
+    padding-left:25px;
+    color:#9c5c62;
+    font-size:32px;
+    font-family: "fantasy";
+}
+footer a{
+    display:inline-block;
+    text-decoration: #721c24;
+    padding-left:20px;
+    color: darkblue;
+
+}
