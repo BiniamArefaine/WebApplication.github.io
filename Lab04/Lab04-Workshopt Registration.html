@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="lab04-styleme.css" type="text/css" rel="stylesheet"/>
+     <meta charset="utf-8"/>
+     <meta name="description" content="Work Shop Registration"/>
+     <title>Work Shop Registration</title>
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <h2> Workshop Registration</h2>
+        <label>More Actions</label>
+        <select id="action" name="actions">
+            <option ></option>
+        </select>
+    </nav>
+    </div>
+ <div class="containers">
+        <form>
+                <p class="underlined">Register now while seats are available!</p>
+            <div class="col_1">
+                <div class="controls">
+                    <label class="label" for="firstName">First Name <span class="required">*</span></label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="lastName">Last Name <span class="required">*</span></label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <br>
+                <div class="controls">
+                   <label class="label" for="company">Company/Institution <span class="required">*</span></label>
+                   <input type="text" name="company" id="company">
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="address">Address <span class="required">*</span></label>
+                    <input type="text" name="address" id="address1">
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="city">City</label>
+                    <input type="text" name="city" id="address">
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="state">State/Province/Region</label>
+                    <select class="select" name="state" id="state">
+                        <option value="none">-Select-</option>
+                    </select>
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="country">Country</label>
+                    <select class="select"  name="country" id="country">
+                        <option value="none">-Select-</option>
+                    </select>
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="email">Email<span class="required">*</span></label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <br>
+                <div class="controls">
+                    <label class="label" for="phonenumber">Phone Number<span class="required">*</span></label>
+                    <input type="text" name="phonenumber" id="phonenumber">
+
+                </div>
+          </div>
+          <div class="col_2">
+                     <p class="underlined">Lunch</p>
+                <div class="controls">
+                    <label class="label" for="meal">Meal Preference</label>
+                    <select class="select" name="meal" id="meal">
+                        <option>Vegetarian</option>
+                    </select>
+                </div>
+                <br>
+                <p class="underlined">Payment Details</p>
+                <div class="controls">
+                    <label class="label">Payment Mode</label>
+                    <div class="check-options">
+                        <label><input type="checkbox" name="paymentMode" value="cash">Cash</label><br>
+                        <label><input type="checkbox" name="paymentMode" value="cheque">Cheque</label><br>
+                        <label><input type="checkbox" name="paymentMode" value="demandDraft">Demand Draft</label>
+                    </div>
+                </div>
+    
+                <div class="controls">
+                    <label class="label" for="chequeNo">DD/Cheque No. </label>
+                    <input type="text" name="phone" id="chequeNo">
+                </div>
+                <div class="controls">
+                    <label class="label" for="drawnOn">Drawn On(Bank Name) </label>
+                    <input type="text" name="drawnOn" id="drawnOn">
+                </div>
+                <div class="controls">
+                    <label class="label" for="payableAt">Payable at </label>
+                    <input type="text" name="payableAt" id="payableAt">
+                </div>
+            </div>
+        </form>
+   </div>
+   
+   <div class="footer">
+       <input class="sub" type="submit" value="Submit">
+       <input class="res" type="reset"  value="Reset">
+   </div>
+
+   
+</body>
+</html>

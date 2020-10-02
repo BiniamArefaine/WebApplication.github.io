@@ -1,0 +1,97 @@
+nav {
+
+    border: 23px solid rgb(200, 205, 214);
+    background-color: rgb(200, 205, 214);
+    width: auto;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(224, 226, 228);
+}
+
+h2 {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-size: 30px;
+
+}
+
+
+input[type="text"], input[type= "email"], .select{
+    width:155px;
+
+}
+
+.label{
+    display:inline-block;
+    width:170px;
+    vertical-align: top;
+    font-weight: bold;
+}
+#action {
+    font-size: 18px;
+}
+
+p.underlined {
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+#address1 {
+    height: 100pt;
+
+}
+
+.sub, .res{
+    display:inline-block;
+    width:100px;
+    height : 30px;
+    background-color: rgb(101, 180, 154);
+    border: black;
+    color:rgb(19, 14, 20);
+}
+.col_1 {
+    display: inline-block;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 0px;
+    vertical-align: top;
+
+}
+.required
+{
+    color: black;
+}
+.controls{
+    padding: 2.5pt;
+    vertical-align: top;
+}
+.containers{
+    width: 950px;
+}
+
+.footer{
+    width: auto;
+    margin-top: 13pt;
+    padding-left: 40%;
+    padding-bottom: 0%;
+    bottom: 0%;
+
+}
+
+
+.check-options{
+    display:inline-block;
+    padding-left:0px;
+}
+
+.col_2{
+    width: auto;
+    margin: 0 auto;
+    padding: 0px;
+    float: right;
+    } 
+
