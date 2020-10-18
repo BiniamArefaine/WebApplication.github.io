@@ -1,0 +1,18 @@
+#container{
+    display: grid;
+    grid-template-areas: 'cl1 cl2 cl3'
+                         'cl1 cl2 cl3'
+
+;
+    width: 400px;
+    background-color: red;
+}
+.column1{
+    grid-area: cl1;
+}
+.column2{
+    grid-area: cl2;
+}
+.column3{
+    grid-area: cl3;
+}

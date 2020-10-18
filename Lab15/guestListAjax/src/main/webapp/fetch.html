@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>fetch</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="resources/js/fetch.js"></script>
+    <link href="resources/css/fetch.css" rel="stylesheet">
+</head>
+<body>
+<p>Json placeholder API test</p>
+<p>UserId<input id='userId' type='number' name='userId'/>
+    <input id='fetch' type='button' value='fetch'/></p>
+
+<div class="container" style="display: grid;grid-template-areas: 'c1 c2 c3">
+    <div class="column1" style="grid-area: c1">
+        <h1>Info</h1>
+        <h2>id</h2>
+        <div id='id'></div>
+        <h2>name</h2>
+        <div id="name"></div>
+        <h2>userName</h2>
+        <div id="username"></div>
+        <h2>email</h2>
+        <div id="email"></div>
+        <h2>phone</h2>
+        <div id="phone"></div>
+        <h2>website</h2>
+        <div id="web"></div>
+    </div>
+    <div class="column2" style="grid-area: c2">
+        <h2>post</h2>
+        <div id="post"></div>
+    </div>
+    <div class="column3" style="grid-area: c3">
+        <h2>comment</h2>
+        <div id="comment"></div>
+    </div>
+</div>
+</body>
+</html>
